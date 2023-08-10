@@ -11,3 +11,74 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.heading{
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color:grey;
+  color: whitesmoke;
+  justify-content: center;
+}
+p{
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.create{
+  display: flex;
+  margin: 30px;
+  justify-content: center;
+}
+
+.create input{
+height: 50px;
+border-radius: 10px;
+width: 300px;
+outline: none;
+font-size: 16px;
+border: none;
+background-color: lightgray;
+color: white;
+}
+.create button{
+  height: 50px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  margin-left: 20px;
+  width: 80px;
+}
+
+
+.todo-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ align-items: center;
+}
+
+.todo{
+  display: flex;
+  background-color: gray;
+  justify-content: space-between;
+  width: 300px;
+  margin: 10px;
+}
+
+.todo h4{
+  margin: 20px;
+  color: white;
+}
+.todo button{
+  border-radius: 8px;
+  outline: none;
+  border: none;
+  margin: 10px;
+  height: 40px;
+}
+
+
+
